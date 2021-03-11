@@ -69,4 +69,4 @@ def run_ml_app():
     btn = st.button('결과 보기')
     if btn :
         st.write('예측 결과입니다. {:,.1f} 달러의 차를 살 수 있습니다.'.format(y_pred_original[0,0]))
-    # st.write(y_pred_original)
+        # st.write(y_pred_original)
